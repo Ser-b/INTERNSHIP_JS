@@ -1,0 +1,133 @@
+﻿// --------------------------------------------------
+// Helper classes
+// --------------------------------------------------
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+// Position
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed {
+	position: fixed;
+}
+
+// Z-index register
+
+%z-1 {
+	z-index: 1;
+}
+
+%z-2 {
+	z-index: 2;
+}
+
+%z-3 {
+	z-index: 3;
+}
+
+%z-4 {
+	z-index: 4;
+}
+
+%z-5 {
+	z-index: 5;
+}
+
+// Floated Elements
+// -------------------------
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.cf {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+// Display Values
+// -------------------------
+
+.inline {
+	display: inline;
+}
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+// Typography
+// -------------------------
+
+
+// Aligning Elements
+// -------------------------
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+// Border radius
+// -------------------------
+
+// Colors
+// -------------------------
+
+.white {
+	&.white {
+		color: $white;
+	}
+}
+
+.black {
+	&.black {
+		color: $black;
+	}
+}
+
+.prime {
+	&.prime {
+color: $prime;
+	}
+}
+
+
+
+// Cursor
+// -------------------------
+
+.pointer {
+	cursor: pointer;
+}

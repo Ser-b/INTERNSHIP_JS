@@ -1,0 +1,69 @@
+@media (max-width: 1024px) {
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	input#SearchInput {
+	display:none;
+	}
+
+	#search {
+	display:block;
+	}
+
+	#hero {
+		background-position: 40rem 0%;
+	}
+
+}
+
+@media (max-width: 768px) {
+  
+	.h1 {
+		font-size: 4rem;
+	}
+
+	.h3 {
+		font-size: 2rem;
+	}
+
+header .container {
+	padding:0;
+}
+
+.btn-hero{
+width: 90%;
+height: 6rem;
+line-height:3rem;
+}
+
+#usa {
+		display: none;
+	}
+#footer_list {
+	margin-left:0;
+}
+
+.inside {
+	padding-top: 2rem;
+}
+
+.special h5 {
+	top: 10rem;
+}
+
+input#input_section {
+	margin-right:3rem;
+	width: 40rem;
+	background-position: 36.2rem;
+}
+
+@media (max-width: 559px) {
+
+	#sign form {
+
+		margin-bottom:2rem;
+	}
+
+}

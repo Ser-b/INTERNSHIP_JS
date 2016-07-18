@@ -1,0 +1,113 @@
+// --------------------------------------------------
+// TM Typography
+// --------------------------------------------------
+
+// Body reset
+// --------------------------------------------------
+
+html {
+	font-size: 10px; // static
+	}
+
+
+
+// Links
+// -------------------------
+
+a,
+.link {
+	text-decoration: none;
+	color: $black;
+
+	&:hover {
+
+		text-decoration: underline;
+	}
+}
+
+
+// Images
+// -------------------------
+
+img {
+	vertical-align: middle;
+}
+
+// Typography
+// --------------------------------------------------
+
+
+// Body text
+// -------------------------
+
+p {
+font-size: 1.7rem;
+font-family: "Open Sans", "Verdana";
+}
+.brand-font{
+	font-size: 1.2rem;
+	font-family: "Open Sans", "Verdana";
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+// Headings
+// -------------------------
+
+.h1,
+.h2,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+color:$contentColor;
+font-family: "Open sans", "Verdana";
+font-weight: 300;
+}
+
+.h1 {
+	font-size: 4.6rem;
+}
+
+.h2 {
+	font-size: 3rem;
+}
+
+.h3 {
+	font-size: 2.4rem;
+}
+
+.h4 {
+	font-size: 2.2rem;
+}
+
+.h5 {
+	font-size: 1.4rem;
+}
+
+.h6 {
+	font-size: 1.2rem;
+}
+
+
+.small {
+	font-size: 1.6rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
