@@ -537,7 +537,7 @@ hr {
 #checkbox:hover {
   cursor: pointer; }
 
-@media (max-width: 773px) {
+@media (max-width: 768px) {
   #checkbox {
     display: block; }
 
